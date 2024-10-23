@@ -28,3 +28,31 @@ else :
 
 print("done XD")
 
+
+#n is positive or negative and odd or even
+
+n = int(input("Enter the number: "))
+
+if n >= 0 and n % 2 == 0 :
+  print(n, "is positive and even number!")
+elif n < 0 and n % 2 == 0:
+  print(n, "is negative number and even number!")
+elif n >= 0 and n % 2 == 1:
+  print(n, "is positive and odd number")
+else :
+  print(n, "is negative number and odd number")
+
+
+#leap year
+
+year = int(input("Year : "))
+
+if year % 100 == 0 and year % 400 == 0 :
+  print(year, "is leap year!")
+elif year % 4 == 0 and year % 100 != 0 :
+  print(year, "is leap year!")
+else :
+  print(year, "is not a leap year!")
+
+
+
